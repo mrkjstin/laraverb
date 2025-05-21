@@ -30,7 +30,7 @@ export default function Index() {
             <div className="flex flex-col items-center w-full max-w-md px-4">
                 <form className="mt-2 w-full" onSubmit={submit}>
                     <div
-                        className="border h-64 overflow-y-auto rounded bg-white p-2 mb-2 flex flex-col gap-1"
+                        className="border h-80 overflow-y-auto rounded bg-white p-2 mb-2 flex flex-col gap-1"
                         id="chat-box"
                     >
                         {chat.map((msg, index) => {
